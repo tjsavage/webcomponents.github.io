@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>http://webcomponents.org</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 26 Mar 2015 20:34:49 GMT</lastBuildDate>
+        <atom:link href="http://webcomponents.org/presentations.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 26 Mar 2015 20:34:11 GMT</pubDate>
+        <item>
+            <title><![CDATA[The cure for your Web Components hangover]]></title>
+            <description><![CDATA[<p>This is a talk on how to get things done today without shooting yourself in the
+foot and finding about it tomorrow. Or next month. Or you don’t, but your users
+do. Learn how to make your code more readable and expressive (without getting
+too meta), make it easy to run and maintain, and then lean back and have a cuppa
+while admiring the beauty of the thing you just have built.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//player.vimeo.com/video/121954532?byline=0&amp;portrait=0&amp;color=ff9933" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="http://soledadpenades.com/files/t/20150306_jquk"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/the-cure-for-your-web-components-hangover-at-jquery-uk</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/the-cure-for-your-web-components-hangover-at-jquery-uk</guid>
+            <pubDate>Fri, 06 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating container components in Web Components and Angular]]></title>
+            <description><![CDATA[<p>Architecting your Angular application with reusable components can be complicated. Many times, UI components that need multiple entry points for user markup and the standard ng-transclude do not do enough of what is required. Using Web Component standards, like the Shadow DOM, we can now enable our applications to easily handle this.</p>
+<!-- Excerpt -->
+<p>Rachael &amp; Kara explain how to create container components today in Angular 1.3 and also give a brief glimpse into what a solution will look like in the upcoming Angular 2.0 release.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="https://www.youtube.com/embed/AbunztfV5vU" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="https://docs.google.com/presentation/embed?id=1SZ05jFRF9Rfsrn39z5-vdyLbY37XZGEgQfZ1uIOaEEo&amp;start=false&amp;loop=false&amp;"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/creating-container-components-in-web-components-and-angular</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/creating-container-components-in-web-components-and-angular</guid>
+            <pubDate>Thu, 05 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Complementarity of React and Web Components]]></title>
+            <description><![CDATA[<p>The component driven, performance focused approach of React is a perfect
+complement to the modularity and portability of native HTML Web Components.</p>
+<!-- Excerpt -->
+<p>At first glance, React and Web Components might seem like two radically
+different solutions to the same problem. But when combined properly they
+complement each other to create an extremely powerful, expressive framework
+for developing complex web applications.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/g0TD0efcwVg" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/44052293"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/complementarity-of-react-and-web-components-at-reactjs-conf</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/complementarity-of-react-and-web-components-at-reactjs-conf</guid>
+            <pubDate>Thu, 29 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An Introduction to Web Components]]></title>
+            <description><![CDATA[<p>The first meetup held at Web Components London focuses on introducing the basics
+of creating Web Components &amp; working with them in your applications. Soledad
+explores the spec, Polymer, X-Tag, and how to publish components so others in
+the community can benefit from them as well.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="https://www.youtube.com/embed/2vWgJ7w3hu0"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<p><a href="http://soledadpenades.com/files/t/20150113_lwc/">
+    <img src="../../img/stories/an-introduction-to-web-components-at-web-components-london-cover.jpg" alt="Presentation Cover">
+</a></p>
+]]></description>
+            <link>http://webcomponents.org/presentations/an-introduction-to-web-components-at-web-components-london</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/an-introduction-to-web-components-at-web-components-london</guid>
+            <pubDate>Tue, 13 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An Introduction to Web Components & Polymer]]></title>
+            <description><![CDATA[<p>Polymer web components makes it easier and faster to create anything from a
+button to a complete application across the desktop, mobile, and beyond. Web
+Components usher in a new era of web development based on encapsulated and
+interoperable custom elements that extend HTML itself. Levent Gurses, creates an
+exciting developer-focused session on developing iOS apps with Web Components
+and Google&#39;s Polymer Library.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/1CYeDli9n1U" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+  <iframe src="//www.slideshare.net/slideshow/embed_code/44503159"> </iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/introduction-to-web-components-and-polymer-at-dc-webcomponents</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/introduction-to-web-components-and-polymer-at-dc-webcomponents</guid>
+            <pubDate>Wed, 07 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components + Backbone: A Game-Changing Combination]]></title>
+            <description><![CDATA[<p>Web Components promise to change how we think about modularity on the web, and
+when combined with the structure and organization of Backbone.js we can create
+portable, dynamic, encapsulated UI modules that fit into any web application.</p>
+<!-- Excerpt -->
+<p>Web Components open up new, low-level interfaces for developers to create
+modules on the web with Custom Elements, HTML Templates, HTML Imports, and the
+Shadow DOM. These are exciting new technologies for web modularity, but on their
+own they can provide neither the rich interactivity nor maintainable structure
+we’ve come to expect in our JavaScript web applications. Other JS libraries are
+already exploring mechanisms for integrating Web Components, but Backbone.js,
+with its light-weight, flexible API, is in a unique position to provide a solid
+foundation for UI modules, and indeed entire UI libraries, built with Web
+Components.</p>
+<p>This talk will provide an introduction to Web Components, but will focus on how
+Backbone can utilize each of their APIs to create well-structured UI modules to
+be reused and shared between web applications. It will present patterns for
+creating these modules and consider best practices for creating components in
+sharable UI libraries. And while browser support for Web Components is rapidly
+improving, this talk will also consider the polyfills available to start using
+Web Components in Backbone.js applications today.</p>
+<p>Web Components and Backbone.js complement each other and, together, are a
+revolutionary pair that offers new and exciting approaches for developing
+interactive UI modules on the web.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/dztuKgjk0Bg" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/42832724"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/webcomponents-plus-backbone-a-game-changing-combination-at-backbone-conf</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/webcomponents-plus-backbone-a-game-changing-combination-at-backbone-conf</guid>
+            <pubDate>Mon, 15 Dec 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Web Components and the Future of CSS]]></title>
+            <description><![CDATA[<p>Philip Walton explains how, with Web Components, we finally have real style scoping and a proper abstraction mechanism. Now we can write truly modular CSS.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/QHxrr6Q82yI" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<p><a href="//philipwalton.github.io/talks/2014-11-24/">
+    <img src="../../img/stories/web-components-and-the-future-of-css-cover.png" alt="Presentation Cover">
+</a></p>
+]]></description>
+            <link>http://webcomponents.org/presentations/web-components-and-the-future-of-css</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/web-components-and-the-future-of-css</guid>
+            <pubDate>Mon, 24 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer: State of the Union]]></title>
+            <description><![CDATA[<p>Polymer started as an experiment in pushing the web platform. In the two and a
+half years since, it helped ship a lot of standards, a developer preview of
+Polymer, and learned a lot and heard a lot of feedback from developers.</p>
+<!-- Excerpt -->
+<p>Matt will share what they have learned, the state of the art of Polymer today,
+and most importantly what’s next.</p>
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/0LT6W5QVCJI" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/42197217"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/polymer-state-of-the-union-at-chrome-devsummit</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/polymer-state-of-the-union-at-chrome-devsummit</guid>
+            <pubDate>Wed, 19 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Easy composition and reuse with Web Components]]></title>
+            <description><![CDATA[<p>Dimitri explores the set of enabling technologies that make up Web Components,
+and describes how these pieces make it easy and fast to build composable
+components, and make HTML finally earn its keep.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/6vcQlD-jadk" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<div class="iframe-wrap">
+    <iframe src="https://docs.google.com/presentation/embed?id=1bNgnYaoE0-GiU6oouDxpW1VTMBZzS6bB1P0rJnnJz-Q&amp;start=false&amp;loop=false&amp;"></iframe>
+</div>]]></description>
+            <link>http://webcomponents.org/presentations/easy-composition-and-reuse-with-web-components-at-chrome-devsummit</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/easy-composition-and-reuse-with-web-components-at-chrome-devsummit</guid>
+            <pubDate>Wed, 19 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Let’s build some apps with Polymer!]]></title>
+            <description><![CDATA[<p>This talk will cover what it takes to build a single page app in Polymer. Rob
+will demonstrate how to quickly scaffold the structure of an application by
+leveraging Material Design elements, explore best practices around lazy loading
+elements to keep our app speedy, and also touch upon the tools we can use to
+debug and test our app.</p>
+<!-- Excerpt -->
+<h3 id="video">Video</h3>
+<div class="iframe-wrap">
+    <iframe src="//www.youtube.com/embed/kV0hgdMpH28" itemprop="video"></iframe>
+</div>
+
+<h3 id="slides">Slides</h3>
+<script async class="speakerdeck-embed" data-id="109efd505e16013232db2e3489c2afa1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>]]></description>
+            <link>http://webcomponents.org/presentations/lets-build-some-apps-with-polymer-at-chrome-devsummit</link>
+            <guid isPermaLink="true">http://webcomponents.org/presentations/lets-build-some-apps-with-polymer-at-chrome-devsummit</guid>
+            <pubDate>Wed, 19 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

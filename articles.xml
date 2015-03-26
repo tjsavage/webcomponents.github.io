@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[WebComponents.org]]></title>
+        <description><![CDATA[A place to discuss and evolve Web Component best-practices]]></description>
+        <link>http://webcomponents.org</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 26 Mar 2015 20:34:49 GMT</lastBuildDate>
+        <atom:link href="http://webcomponents.org/articles.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 26 Mar 2015 20:34:11 GMT</pubDate>
+        <item>
+            <title><![CDATA[Bringing Custom Elements to IE8]]></title>
+            <description><![CDATA[<p>Bringing modern Web standards to old browsers is always challenging, sometimes nearly impossible, but always beneficial for a graceful migrations approach.</p>
+<p>Before his latest talk in Helsinki, Andrea managed to accomplish something unexpected and relatively simple: he manged to make his Custom Element&#39;s <code>document.registerElement</code> <a href="https://github.com/WebReflection/document-register-element#document-register-element">polyfill</a> compatible with Internet Explorer 8 too, together with the already wide list of old Mobile platforms supported since the very beginning.</p>
+<p>As result, when it&#39;s needed, and with a little extra effort, it is now possible to create components that won&#39;t break the old, even if not so good, Web platform.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/bringing-custom-elements-to-ie8</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/bringing-custom-elements-to-ie8</guid>
+            <pubDate>Fri, 20 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A Bet on Web Components and Ember.Component Synchronicity]]></title>
+            <description><![CDATA[<p>The Ember community is no stranger to componentization. The team for this JavaScript framework has 
+been working hard on the implementation of Ember.Components as well as integrating these seemlessly 
+with standard Web Components.</p>
+<p>The boundaries between Ember.Components and a Web Components are beginning to blur more and more. 
+Making these two component models work together should be fairly easy. </p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/a-bet-on-web-components-and-embercomponent-synchronicity</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/a-bet-on-web-components-and-embercomponent-synchronicity</guid>
+            <pubDate>Mon, 02 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer 0.8 Sneak Peek]]></title>
+            <description><![CDATA[<p>The next release of Polymer, 0.8, is going to be a doozy. It&#39;s the first release
+on the &quot;heading towards production&quot; track and it&#39;s going to have some pretty
+massive differences from previous versions. So what exactly is new, and what&#39;s
+changing?</p>
+<p><em>Note: This data was gathered primarily from reading the
+<a href="https://github.com/Polymer/polymer/blob/0.8-preview/PRIMER.md">Polymer 0.8 Primer</a>
+which is very, very extensive. I&#39;m just hitting the highlights. Also note that
+any of this could change before the final release is cut.</em></p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/polymer-0-8-sneak-peek</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/polymer-0-8-sneak-peek</guid>
+            <pubDate>Mon, 23 Feb 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Best Practice for Creating Custom Elements]]></title>
+            <description><![CDATA[<p>It looks like custom elements, and web components in general, are beginning to
+break through into general developer consciousness, as I see more and more
+articles and talks discussing what they are, what they are good for, and how to
+make them.</p>
+<p>As they’re not yet being used heavily in development, however, I think there’s a
+good opportunity to define best practices in the way we use them. In this post I
+want to propose a best practice method for writing custom elements: I’ll do that
+by comparing two methods for creating custom elements, along with the advantages
+and drawbacks of each.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/best-practice-creating-custom-elements</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/best-practice-creating-custom-elements</guid>
+            <pubDate>Tue, 27 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Creating a Polymer Chat App with Material Design]]></title>
+            <description><![CDATA[<p>We’ve published a wide variety of demos and tutorials showing you how to build a realtime chatroom with JavaScript; 10Chat with only 10 lines of JavaScript, AngularJS chat, going “native” with PhoneGap for Android and iOS, etc.</p>
+<p>I am showing how to create yet another chat app with Material Design using Polymer to create a simple but visually appealing app with a great user-experience.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/creating-polymer-chat-app-material-design</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/creating-polymer-chat-app-material-design</guid>
+            <pubDate>Thu, 15 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to HTML Imports]]></title>
+            <description><![CDATA[<p><a href="http://webcomponents.org/articles/introduction-to-template-element">Template</a>, <a href="http://webcomponents.org/articles/introduction-to-shadow-dom">Shadow DOM</a>, and <a href="http://webcomponents.org/articles/introduction-to-custom-elements">Custom Elements</a> enable you to build UI components easier than before. But it&#39;s not efficient to load each resources such as HTML, CSS and JavaScript separately.</p>
+<p>Deduping dependencies isn&#39;t easy either. To load a library like jQuery UI or Bootstrap today requires using separate tags for JavaScript, CSS, and Web Fonts. Things get even more complex if you deal with Web Components with multiple dependencies.</p>
+<p>HTML Imports allow you to load those resources as an aggregated HTML file.</p>
+<!-- Excerpt -->
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/JhpOw8mq1jo"></iframe>
+</div>
+
+<hr>
+<h2 id="using-html-imports">Using HTML Imports</h2>
+<p>In order to load an HTML file, add a <code>link</code> tag with an <code>import</code> in the <code>rel</code> attribute and an <code>href</code> that contains a path to the HTML file. For example, if you want to load an HTML file called <code>component.html</code> into <code>index.html</code>:</p>
+<p><em>index.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"import"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"component.html"</span> &gt;</span>
+</code></pre>
+<p>You can load any resource including scripts, stylesheets, and web fonts, into the imported HTML just like you do to regular HTML files:</p>
+<p><em>component.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"stylesheet"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"css/style.css"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/script.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p><code>doctype</code>, <code>html</code>, <code>head</code>, <code>body</code> aren&#39;t required. HTML Imports will immediately load the imported document, resolve subresources and execute JavaScript, if any.</p>
+<h2 id="execution-order">Execution order</h2>
+<p>Browsers parse the content of HTML in linear order. This means <code>script</code> tags at the top of HTML will be executed earlier than the ones at the bottom. Also, note that browsers usually wait for any JavaScript code to finish executing before parsing the following lines of HTML.</p>
+<p>In order to avoid <code>script</code> tag to block rendering of HTML, you can use <code>async</code> / <code>defer</code> attributes (or you can move all of your script tags to the bottom of the page). <code>defer</code> attribute postpones execution of the script until entire HTML is parsed. <code>async</code> attribute lets the browser asynchronously execute the script so it won&#39;t block rendering HTML.</p>
+<p>Then, how do HTML Imports work?</p>
+<p>Script inside an html import behave just like a <code>script</code> tag with a <code>defer</code> attribute. In the example code below, <code>index.html</code> will execute <code>script1.js</code> and <code>script2.js</code> inside <code>component.html</code> before executing <code>script3.js</code>.</p>
+<p><em>index.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"import"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"component.html"</span>&gt;</span> // 1.
+<span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>Import Example<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"script3.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>        // 4.
+</code></pre>
+<p><em>component.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/script1.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>     // 2.
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/script2.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>     // 3.
+</code></pre>
+<ol>
+<li>Loads <code>component.html</code> from <code>index.html</code> and wait for execution</li>
+<li>Execute <code>script1.js</code> in <code>component.html</code></li>
+<li>Execute <code>script2.js</code> in <code>component.html</code> after execution of <code>script1.js</code></li>
+<li>Execute <code>script3.js</code> in <code>index.html</code> after execution of <code>script2.js</code></li>
+</ol>
+<p>Note that by adding an <code>async</code> attribute to <code>link[rel=&quot;import&quot;]</code>, HTML Import behaves just like <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"><code>async</code> attribute to <code>script</code> tag</a>. It won&#39;t wait for the execution and load of imported HTML which also means it doesn&#39;t block rendering the original HTML. This can potentially improve performance of your website unless other scripts depends on the execution of the imported HTML.</p>
+<h2 id="going-beyond-origins">Going beyond origins</h2>
+<p>HTML Imports basically can&#39;t import resources from other origins. For example, you can&#39;t import an HTML file at <a href="http://example.com/">http://example.com/</a> from <a href="http://webcomponents.org/">http://webcomponents.org/</a>.</p>
+<p>To avoid this restriction, use CORS (Cross Origin Resource Sharing). To learn about CORS, read <a href="http://www.html5rocks.com/tutorials/cors/">this article</a>.</p>
+<h2 id="window-and-document-object-in-an-imported-html">window and document object in an imported HTML</h2>
+<p>Earlier, I mentioned JavaScript will be executed when an HTML file is imported. But this doesn&#39;t mean the markup in the imported HTML file will also be rendered inside the browser. You need to write some JavaScript to help here.</p>
+<p>One caveat to using JavaScript with HTML Imports is that the <code>document</code> object in an imported HTML file actually points to the one in the original page.</p>
+<p>Taking the previous code as an example, the <code>document</code> in <code>index.html</code> and <code>component.html</code> both refers to the <code>document</code> object in <code>index.html</code>.</p>
+<p>So, how can you refer to the <code>document</code> object of the imported HTML file?</p>
+<p>In order to obtain <code>component.html</code>&#39;s <code>document</code> object from within the <code>index.html</code> page, refer to the <code>link</code> element&#39;s <code>import</code> property.</p>
+<p><em>index.html</em></p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> link = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'link[rel="import"]'</span>);
+link.addEventListener(<span class="hljs-string">'load'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(e)</span> </span>{
+  <span class="hljs-keyword">var</span> importedDoc = link.import;
+  <span class="hljs-comment">// importedDoc points to the document under component.html</span>
+});
+</code></pre>
+<p>To obtain the <code>document</code> object from within <code>component.html</code> itself, refer to <code>document.currentScript.ownerDocument</code>.</p>
+<p><em>component.html</em></p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> mainDoc = <span class="hljs-built_in">document</span>.currentScript.ownerDocument;
+<span class="hljs-comment">// mainDoc points to the document under component.html</span>
+</code></pre>
+<p>If you are using <code>webcomponents.js</code>, use <code>document._currentScript</code> instead of <code>document.currentScript</code>. The underscore is used to polyfill the <code>currentScript</code> property which is not available in all browsers.</p>
+<p><em>component.html</em></p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> mainDoc = <span class="hljs-built_in">document</span>._currentScript.ownerDocument;
+<span class="hljs-comment">// mainDoc points to the document under component.html</span>
+</code></pre>
+<p>By writing the following code at the beginning of your script, you can easily access <code>component.html</code>&#39;s <code>document</code> object regardless of if the browser supports HTML Imports or not.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-built_in">document</span>._currentScript = <span class="hljs-built_in">document</span>._currentScript || <span class="hljs-built_in">document</span>.currentScript;
+</code></pre>
+<h2 id="performance-consideration">Performance consideration</h2>
+<p>One of the benefits of using HTML Imports is to be able to organize resources. But this also means more overhead when loading those resources because of additional HTML file. There are couple of points to consider:</p>
+<h3 id="resolving-dependencies">Resolving dependencies</h3>
+<p>What if multiple imported documents all depend on, and try to load the same library? For example:</p>
+<p>Say you are loading jQuery in two imported HTML files. If each import contains a <code>script</code> tag to load jQuery, it will be loaded and executed twice.</p>
+<p><em>index.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"import"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"component1.html"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"import"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"component2.html"</span>&gt;</span>
+</code></pre>
+<p><em>component1.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/jquery.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p><em>component2.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"js/jquery.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p>This is a problem imports solve for free.</p>
+<p>Unlike <code>script</code> tags, HTML Imports skip loading and executing HTML files that are previously loaded. Taking the previous code as an example, by wrapping the <code>script</code> tag that loads jQuery with an HTML Import, it will be loaded and executed only once.</p>
+<p><img src="/img/stories/htmlimports-dependency.png" alt="Dependency resolution"></p>
+<p>But here&#39;s another problem: we have added one more file to load. What can we do with this bloating number of files?</p>
+<p>Luckily, we have a tool called &quot;vulcanize&quot; for the solution.</p>
+<h3 id="aggregating-network-requests">Aggregating network requests</h3>
+<p><a href="https://github.com/polymer/vulcanize">Vulcanize</a> is a tool to aggregate multiple HTML files into one, in order to reduce the number of network connections. You can install it via npm, and use it from the command line. There are <a href="https://github.com/Polymer/grunt-vulcanize">grunt</a> and <a href="https://github.com/sindresorhus/gulp-vulcanize">gulp</a> tasks as well so you can make vulcanize part of your build process.</p>
+<p>To resolve dependencies and aggregate files in <code>index.html</code>:</p>
+<pre class="highlight"><code class="hljs bash">$ vulcanize -o vulcanized.html index.html
+</code></pre>
+<p>By executing this command, dependencies in <code>index.html</code> will be resolved and will generate an aggregated HTML file called <code>vulcanized.html</code>.</p>
+<p>Learn more about vulcanize <a href="https://www.polymer-project.org/articles/concatenating-web-components.html">here</a>.</p>
+<p>Note: http2&#39;s server push abilities are considered to eliminate needs for concatenating and vulcanizing files in the future.</p>
+<h2 id="combining-html-imports-with-template-shadow-dom-and-custom-elements">Combining HTML Imports with Template, Shadow DOM and Custom Elements</h2>
+<p>Let&#39;s utilize HTML Imports with <a href="http://webcomponents.org/articles/introduction-to-custom-elements/">the code we&#39;ve been working through this article series</a>.</p>
+<p>In case you haven&#39;t read the previous articles:  With <a href="http://webcomponents.org/articles/introduction-to-template-element/">templates</a>, defining the content of your custom element can be declarative. With <a href="http://webcomponents.org/articles/introduction-to-shadow-dom/">Shadow DOM</a>, styles, IDs and classes of an element can be scoped to itself. With <a href="http://webcomponents.org/articles/introduction-to-custom-elements/">Custom Elements</a>, you can define your own custom HTML tags.</p>
+<p>By combining these with HTML Imports, your custom web component will gain modularity and reusability. Anyone will be able to use it just by adding a <code>link</code> tag.</p>
+<p><em>x-component.html</em></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"template"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    ...
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"webcomponents"</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://webcomponents.org/img/logo.svg"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">content</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"h1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">content</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-comment">// This element will be registered to index.html</span>
+  <span class="hljs-comment">// Because `document` here means the one in index.html</span>
+  <span class="hljs-keyword">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>, {
+    prototype: <span class="hljs-built_in">Object</span>.create(HTMLElement.prototype, {
+      createdCallback: {
+        value: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+          <span class="hljs-keyword">var</span> root = <span class="hljs-keyword">this</span>.createShadowRoot();
+          <span class="hljs-keyword">var</span> template = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#template'</span>);
+          <span class="hljs-keyword">var</span> clone = <span class="hljs-built_in">document</span>.importNode(template.content, <span class="hljs-literal">true</span>);
+          root.appendChild(clone);
+        }
+      }
+    })
+  });
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p><em>index.html</em></p>
+<pre class="highlight"><code class="hljs xml">  ...
+  <span class="hljs-tag">&lt;<span class="hljs-title">link</span> <span class="hljs-attribute">rel</span>=<span class="hljs-value">"import"</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"x-component.html"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">x-component</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>This is Custom Element<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">x-component</span>&gt;</span>
+  ...
+</code></pre>
+<p>Notice that because the <code>document</code> object in <code>x-component.html</code> is the same one in <code>index.html</code>, you don&#39;t have to write anything tricky. It registers itself for you.</p>
+<h2 id="supported-browsers">Supported browsers</h2>
+<p>HTML Imports are supported by Chrome and Opera. Firefox supports it behind a flag as of December 2014 (Update: <a href="https://hacks.mozilla.org/2014/12/mozilla-and-web-components/">Mozilla has said</a> they are not currently planning to ship Imports, citing the need to first see how ES6 modules play out).</p>
+<p>To check availability, go to <a href="https://www.chromestatus.com/features/4642138092470272">chromestatus.com</a> or <a href="http://caniuse.com/#feat=custom-elements">caniuse.com</a>. For polyfilling other browsers, you can use <a href="https://github.com/Polymer/webcomponentsjs">webcomponents.js</a> (renamed from <a href="https://github.com/Polymer/platform">platform.js</a>).</p>
+<h2 id="resources">Resources</h2>
+<p>So that&#39;s the HTML Imports. If you are interested in learning more about the HTML Imports, head over to:</p>
+<ul>
+<li><a href="http://goo.gl/EqeOBI">HTML Imports: #include for the web - HTML5Rocks</a></li>
+<li><a href="http://w3c.github.io/webcomponents/spec/imports/">HTML Imports spec</a></li>
+</ul>
+]]></description>
+            <link>http://webcomponents.org/articles/introduction-to-html-imports</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/introduction-to-html-imports</guid>
+            <pubDate>Mon, 05 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Polymer Web Components with Marionette.js]]></title>
+            <description><![CDATA[<p>JavaScript is a playground. If you disagree, then I encourage you to read Atwood’s Law. A quick Google search will reveal the law in full force with assemblers, machine emulators, and programming languages all written in JavaScript. That is just a small sampling. Go peruse the npm registry for plenty of build tools, frameworks, and servers written in JavaScript. We are tinkerers, especially in the JavaScript community. Sometimes our creations are practical and sometimes they are just fun.</p>
+<p>With that introduction framing this post, I would like to show off some fun I had with <a href="http://polymer-project.org/">Polymer</a> and <a href="http://marionettejs.com/">Marionette.js</a> recently.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/polymer-web-components-with-marionettejs</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/polymer-web-components-with-marionettejs</guid>
+            <pubDate>Sat, 03 Jan 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mozilla and Web Components: Update]]></title>
+            <description><![CDATA[<p>Mozilla has a long history of participating in standards development. The post
+below shows a real-time slice of how standards are debated and adopted. The goal
+is to update developers who are most affected by implementation decisions we
+make in Firefox. We are particularly interested in getting feedback from
+JavaScript library and framework developers.</p>
+<!-- Excerpt -->]]></description>
+            <link>http://webcomponents.org/articles/mozilla-and-web-components-update</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/mozilla-and-web-components-update</guid>
+            <pubDate>Mon, 15 Dec 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What's next for X-Tag project]]></title>
+            <description><![CDATA[<p>Many things happened since Mozilla first announced its solution to bring Web
+Components capabilities to all modern browsers.</p>
+<p>To continue our <a href="/tags/interview">interview series</a> we invited
+<a href="http://www.backalleycoder.com/">Daniel Buchner</a>, creator of the <a href="http://x-tags.org/">X-Tag</a>
+library, to explain how everything started and what&#39;s coming next.</p>
+<!-- Excerpt -->
+<h3 id="two-years-ago-you-made-your-first-talk-presenting-x-tag-at-mozilla-https-air-allizom-org-x-tags-what-were-your-motivations-to-build-it-">Two years ago you made your <a href="https://air.allizom.org/x-tags/">first talk presenting X-Tag at Mozilla</a>. What were your motivations to build it?</h3>
+<p>My motivation for writing X-Tag was two fold:</p>
+<p><strong>I.</strong> Create a polyfill for the Custom Elements spec. I saw this spec as the real
+foundation of Web Components - the other specs enhance the guts (Shadow DOM,
+Templates) and distribution (Imports) of custom elements.</p>
+<p><strong>II.</strong> I saw the Custom Elements API as a raw canvas that provided awesome lifecycle
+hooks and prototype definition capabilities, but lacked the features and
+affordances to solve the &quot;80% case&quot; for the development of robust, app-centric
+elements. I wanted to create a small library that would fill these gaps and make
+Custom Element development even easier for folks.</p>
+<h3 id="how-hard-was-to-create-a-framework-based-on-a-constantly-changing-set-of-specs-">How hard was to create a framework based on a constantly changing set of specs?</h3>
+<p>It wasn&#39;t all that difficult working with a changing spec/implementation,
+primarily because we quickly came to the conclusion that we would focus on the
+library, and collaborate with Google on a single, shared polyfill.</p>
+<p>This allowed us to run fast while still contributing to the spec development
+effort. I imagine change tracking of the specs and W3 conversations would have
+been more difficult if I wasn&#39;t directly involved in the Working Group. As I try
+to imagine the process with the eyes of a developer on the periphery, we could
+have been a little better at broadcasting changes, but that&#39;s more of a general,
+W3 process point, not a critique of any specific Working Group.</p>
+<h3 id="are-there-plans-to-use-web-components-inside-of-firefox-os-what-do-you-think-is-the-future-for-the-brick-project-">Are there plans to use Web Components inside of Firefox OS? What do you think is the future for the Brick project?</h3>
+<p>I know <a href="https://www.mozilla.org/en-US/firefox/os/">Firefox OS</a> developers were
+eager to use Web Components, I believe they were waiting for the specs to land
+in <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Gecko">Gecko</a> before
+converting production FxOS code to use them. As far as <a href="http://brick.mozilla.io/">Brick</a>
+is concerned, after a few pivots, they are now making decisions about the
+direction/future of the project.</p>
+<h3 id="a-couple-of-months-ago-you-left-mozilla-to-join-target-how-do-you-see-the-future-of-x-tag-now-do-you-have-plans-to-keep-maintaining-it-are-you-planning-to-bring-web-components-to-target-">A couple of months ago you left Mozilla to join Target. How do you see the future of X-Tag now? Do you have plans to keep maintaining it? Are you planning to bring Web Components to Target?</h3>
+<p>I left Mozilla in April, and soon after the other major X-Tag developer,
+<a href="https://twitter.com/arronschaar">Arron Schaar</a>, left Mozilla for a start-up.
+We both still actively work on X-Tag, and we just published a 1.0 release
+this November (2014).</p>
+<p>We are also in the process of <a href="http://x-tag.readme.io/v1.0/docs">moving our docs</a>
+to <a href="https://twitter.com/gkoberger">Greg Koberger&#39;s</a> excellent
+<a href="https://readme.io/">ReadMe.io</a>, and dramatically expanding code coverage.
+While working on other projects, I have started assembling a set of app-centric
+elements we intend to release around the end of the year, in a UI library named
+X-UI. X-UI will be a set of custom elements that only rely on the Custom
+Elements API (polyfilled or native).</p>
+<p>If you&#39;re already using X-Tag or Polymer, you&#39;re set - just grab the elements
+you need and go go go!</p>
+<hr>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Questions by <a href="https://twitter.com/zenorocha">Zeno Rocha</a> and <a href="https://twitter.com/rob_dodson">Rob Dodson</a>.</li>
+</ul>
+]]></description>
+            <link>http://webcomponents.org/articles/interview-with-daniel-buchner</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/interview-with-daniel-buchner</guid>
+            <pubDate>Tue, 02 Dec 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to Custom Elements]]></title>
+            <description><![CDATA[<p>HTML is the most important factor for the web platform. It provides various low
+level features to structure sites and apps. But it also is easy to end up with
+div soup once you start implementing a complex component using native HTML tags.
+What if the web platform could allow you to create your original component?
+What if you can give it an arbitrary tag name? What if you can extend features
+of an existing HTML tag? Custom Elements allow you to do those things.</p>
+<!-- Excerpt -->
+<div class="iframe-wrap">
+  <iframe src="//www.youtube.com/embed/iVJA-lGkEFw"></iframe>
+</div>
+
+<hr>
+<h1 id="what-are-custom-elements-">What are Custom Elements?</h1>
+<p>Custom Elements enable developers to create their own custom HTML tags, let
+them use those tags in their sites and apps, and enable easier component reuse.</p>
+<h1 id="how-to-build-a-custom-element">How to build a custom element</h1>
+<p>Defining a custom element is simple. Just call <code>document.registerElement()</code> with
+its tag name as the first argument.</p>
+<pre class="highlight"><code class="hljs coffeescript"><span class="hljs-reserved">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>);
+</code></pre><p>Now you can use <code>&lt;x-component&gt;</code>  wherever you want in the document.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">x-component</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">x-component</span>&gt;</span>
+</code></pre>
+<p>Note: <code>&lt;x-component&gt;</code> can appear in the document before the definition of the
+custom element execution. See
+<a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/">HTML5Rocks article</a>
+for details.</p>
+<p>To detect the availability of Custom Elements, check if
+<code>document.registerElement</code> is available. Otherwise, you can simply load
+<a href="http://webcomponents.org/polyfills/"><code>webcomponents.js</code></a> to
+polyfill it.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/webcomponentsjs/webcomponents.min.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<h2 id="naming-rules">Naming rules</h2>
+<p>You need to have at least one &#39;<code>-</code>&#39; inside the name of a custom element. Any tag
+names without &#39;<code>-</code>&#39; will result in an error.</p>
+<p>Good</p>
+<ul>
+<li>x-component</li>
+<li>x-web-component</li>
+</ul>
+<p>Bad</p>
+<ul>
+<li>web_component</li>
+<li>xelement</li>
+<li>XElement</li>
+</ul>
+<h2 id="imperative-usage">Imperative usage</h2>
+<p>A defined custom tag can be used declaratively by inserting <code>&lt;x-component&gt;</code> tag
+inside HTML, but you can also take an imperative approach.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>);
+<span class="hljs-keyword">var</span> dom = <span class="hljs-keyword">new</span> XComponent();
+<span class="hljs-built_in">document</span>.body.appendChild(dom);
+</code></pre>
+<p>The above example is using <code>new</code> to instantiate a custom element.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>);
+<span class="hljs-keyword">var</span> dom = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'x-component'</span>);
+<span class="hljs-built_in">document</span>.body.appendChild(dom);
+</code></pre>
+<p>This example uses <code>document.createElement()</code> to instantiate a custom element.</p>
+<h1 id="adding-features-to-a-custom-element">Adding features to a custom element</h1>
+<p>Being able to use a custom tag name itself is fine, but it doesn&#39;t do much.
+Let&#39;s add some features to the element.</p>
+<p>In order to add features to a custom element, you first need to create a basic
+prototype object by calling <code>Object.create()</code> with <code>HTMLElement.prototype</code> as an
+argument. This gives you an empty prototype object with the basic HTML element
+feature set in its prototype chain. Add any functions and properties you want to
+the prototype object, then pass your prototype to document.registerElement as
+shown below:</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> proto = <span class="hljs-built_in">Object</span>.create(HTMLElement.prototype);
+proto.name = <span class="hljs-string">'Custom Element'</span>;
+proto.alert = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+  alert(<span class="hljs-string">'This is '</span> + <span class="hljs-keyword">this</span>.name);
+};
+<span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>, {
+  prototype: proto
+});
+</code></pre>
+<h2 id="custom-element-structure">Custom Element Structure</h2>
+<p>Let&#39;s see what&#39;s going on in a custom element using Chrome DevTools. Use the
+&quot;Elements&quot; panel to inspect the <code>x-component</code> tag we just created. You can see
+the <code>x-component</code> is an instance of a <code>x-component</code> prototype which is an
+instance of the <code>HTMLElement</code> prototype.</p>
+<p><img src="/img/stories/customelements-inherit.png" alt="Custom Element Structure"></p>
+<h1 id="type-extension-custom-element">Type Extension Custom Element</h1>
+<p>You can create a custom element that extends a native HTML element&#39;s features.
+This is called a Type Extension Custom Element. To use the element, use the
+original tag and specify the custom tag name using the <code>is</code> attribute.</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">is</span>=<span class="hljs-value">"x-component"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+</code></pre>
+<p>To define a type extension:</p>
+<ul>
+<li>Create the base prototype object using the prototype of the extended element,
+instead of HTMLElement.</li>
+<li>Add an <code>extends</code> key in the second argument to <code>document.registerElement()</code>,
+specifying the <em>tag name</em> of the extended element.</li>
+</ul>
+<p>Following is an example code when extending the <code>input</code> element:</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>, {
+  extends: <span class="hljs-string">'input'</span>,
+  prototype: <span class="hljs-built_in">Object</span>.create(HTMLInputElement.prototype)
+});
+</code></pre>
+<p>Notice that it <code>extends: &#39;input&#39;</code> and its prototype is based on
+<code>HTMLInputElement</code> instead of <code>HTMLElement</code>. Now you can use
+<code>&lt;input is=&quot;x-component&quot;&gt;</code> inside your document. By doing so, you can have
+extended APIs on top of basic <code>input</code> element&#39;s features.</p>
+<p>Note: You may wonder what happens if you set different elements for <code>&#39;extends</code>&#39;
+and &#39;<code>prototype</code>&#39;. Yes, it is possible and may cause unexpected results. But as
+far as I have experimented, you won&#39;t get any valuable outcome.</p>
+<h2 id="use-case-at-github">Use case at GitHub</h2>
+<p>So what&#39;s the point of Type Extension Custom Element? Let&#39;s look at a great
+existing example at the GitHub website.</p>
+<p><img src="/img/stories/customelements-relativetime.png" alt="relative-time type extension"></p>
+<p>GitHub has a many components that displays date and time. Notice they are not
+absolute dates/times but relative to the browser&#39;s current time.
+You should be able to imagine how to calculate that but GitHub is doing that
+using Type Extension Custom Element with <a href="https://github.com/github/time-elements"><code>time-elements</code></a>.</p>
+<p>Let&#39;s look into how it works.</p>
+<p><img src="/img/stories/customelements-time.png" alt="time element"></p>
+<p>There are four things you should notice:</p>
+<ul>
+<li><code>time</code> tag is used as a base element</li>
+<li><code>datetime</code> attribute indicates an absolute date/time</li>
+<li><code>relative-time</code> is specified as a type extension</li>
+<li><code>TextContent</code> indicates a relative date/time</li>
+</ul>
+<p>This is done by calculating a relative date/time out from an absolute date/time
+(<code>datetime</code>) attribute on the fly as a type extension.</p>
+<p>The benefit of using Type Extension Custom Element is that even if JavaScript is
+turned off or the browser doesn&#39;t support Custom Elements (including polyfill),
+the <code>time</code> element will still show the date/time information as a fallback
+keeping its semantics. Try using DevTools and turning off JavaScript; you&#39;ll
+notice it shows absolute dates and times.</p>
+<p>Read webcomponents.org&#39;s
+<a href="http://webcomponents.org/articles/interview-with-joshua-peek/">How GitHub is using Web Components in production</a>
+for more details about <code>time-elements</code>.</p>
+<h1 id="lifecycle-callbacks">Lifecycle callbacks</h1>
+<p>I mentioned the <code>relative-time</code> custom element inserts a relative date/time into
+<code>TextContent</code> on the fly. But when does that happen? You can define functions to
+be called when certain events happened on Custom Elements, which are called
+&quot;lifecycle callbacks&quot;.</p>
+<p>Here&#39;s the list of lifecycle callbacks:</p>
+<p><strong>.createdCallback()</strong>
+Called after the element is created.</p>
+<p><strong>.attachedCallback()</strong>
+Called when the element is attached to the document</p>
+<p><strong>.detachedCallback()</strong>
+Called when the element is detached from the document.</p>
+<p><strong>.attributeChangedCallback()</strong>
+Called when one of attributes of the element is changed.</p>
+<p>In case of <code>relative-time</code>, <code>.createdCallback()</code> and
+<code>.attributeChangedCallback()</code> are hooked up to insert a relative date/time to
+<code>TextContent</code>.</p>
+<h2 id="example">Example</h2>
+<p>To use lifecycle callbacks, just define the functions as properties of a
+prototype object when registering a custom element.</p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> proto = <span class="hljs-built_in">Object</span>.create(HTMLElement.prototype);
+proto.createdCallback = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">var</span> div = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'div'</span>);
+  div.textContent = <span class="hljs-string">'This is Custom Element'</span>;
+  <span class="hljs-keyword">this</span>.appendChild(div);
+};
+<span class="hljs-keyword">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>, {
+  prototype: proto
+});
+</code></pre>
+<h1 id="combining-custom-elements-with-templates-and-shadow-dom">Combining Custom Elements with Templates and Shadow DOM</h1>
+<p>By using Templates and Shadow DOM in a custom element, you can make the element
+easier to handle and resusable. With templates, defining the content of your
+custom element can be declarative. With Shadow DOM, styles, ids and classes of
+the content can be scoped to itself.</p>
+<p>You can utilize them when the custom element is created using <code>.createdCallback()</code>.
+Let&#39;s have a look at a sample code. To learn about Templates and Shadow DOM,
+read the respective articles
+(<a href="http://webcomponents.org/articles/introduction-to-template-element">Template</a>,
+<a href="http://webcomponents.org/articles/introduction-to-shadow-dom">Shadow DOM</a>)
+written previously.</p>
+<p><strong>HTML</strong></p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-comment">&lt;!-- Template Definition --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">template</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"template"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">style</span>&gt;</span><span class="css">
+    ...
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://webcomponents.org/img/logo.svg"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">content</span> <span class="hljs-attribute">select</span>=<span class="hljs-value">"h1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">content</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">template</span>&gt;</span>
+</code></pre>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-comment">&lt;!-- Custom Element usage --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">x-component</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>This is Custom Element<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">x-component</span>&gt;</span>
+</code></pre>
+<p><strong>JavaScript</strong></p>
+<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> proto = <span class="hljs-built_in">Object</span>.create(HTMLElement.prototype);
+proto.createdCallback = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+  <span class="hljs-comment">// Adding a Shadow DOM</span>
+  <span class="hljs-keyword">var</span> root = <span class="hljs-keyword">this</span>.createShadowRoot();
+  <span class="hljs-comment">// Adding a template</span>
+  <span class="hljs-keyword">var</span> template = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'#template'</span>);
+  <span class="hljs-keyword">var</span> clone = <span class="hljs-built_in">document</span>.importNode(template.content, <span class="hljs-literal">true</span>);
+  root.appendChild(clone);
+}
+<span class="hljs-keyword">var</span> XComponent = <span class="hljs-built_in">document</span>.registerElement(<span class="hljs-string">'x-component'</span>, {
+  prototype: proto
+});
+</code></pre>
+<p><a href="http://jsbin.com/yugoka/3/edit?html,js,output">Here&#39;s a live example.</a></p>
+<h1 id="supported-browsers">Supported browsers</h1>
+<p>Custom Elements are supported by Chrome and Opera. Firefox supports them behind
+a flag as of November 2014. To check availability, go to
+<a href="https://www.chromestatus.com/features/4642138092470272">chromestatus.com</a> or
+<a href="http://caniuse.com/#feat=custom-elements">caniuse.com</a>. For polyfilling other
+browsers, you can use
+<a href="http://webcomponents.org/polyfills/">webcomponents.js</a> (renamed
+from <a href="https://github.com/Polymer/platform">platform.js</a>).</p>
+<h1 id="resources">Resources</h1>
+<p>So that&#39;s the Custom Elements.
+<a href="http://webcomponents.org/articles/interview-with-joshua-peek/">As you may have noticed</a>
+, Custom Elements are used in the production of GitHub supporting IE9 by using
+polyfill. Now is your time to try this feature.</p>
+<p>If you are interested in learning more about the Custom Elements, head over to:</p>
+<ul>
+<li><a href="http://goo.gl/ozdC4Q">Custom Elements: defining new elements in HTML - HTML5Rocks</a></li>
+<li><a href="http://w3c.github.io/webcomponents/spec/custom/">Custom Elements spec</a></li>
+</ul>
+]]></description>
+            <link>http://webcomponents.org/articles/introduction-to-custom-elements</link>
+            <guid isPermaLink="true">http://webcomponents.org/articles/introduction-to-custom-elements</guid>
+            <pubDate>Mon, 24 Nov 2014 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
